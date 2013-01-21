@@ -1,0 +1,173 @@
+@font-face {
+font-family:"Lucida-yhy";
+src:url("../fonts/Lucida Sans Unicode.ttf");
+}
+@font-face {
+font-family:"STXINWEI-yhy";
+src:url("../fonts/STXINWEI.ttf");
+}
+@font-face {
+font-family:"Skia-yhy";
+src:url("../fonts/Skia.ttf");
+}
+@font-face {
+font-family:"-yhy";
+src:url("../fonts/.ttf");
+}
+
+table{
+width: 1000px;
+font-family:"Lucida-yhy";
+border-collapse:collapse;
+}
+table input{
+font-family:"Lucida-yhy";
+}
+table td, table th{	
+font-size:1em;
+border:1px solid #0583bd;
+padding:3px 7px 2px 7px;
+}
+table td a{
+text-decoration: none;
+color: black;
+}
+.col3,.col4{
+text-align:center;
+}
+.col1:hover{
+background-color: #a3defa;
+}
+table th{
+font-size:1.1em;
+padding-top:5px;
+padding-bottom:4px;
+background-color: #2db4f3;
+color:#ffffff;
+}
+
+table tr.alt td{
+background-color: #a3defa;
+}	
+table th.th1{
+width: 200px;
+}
+table th.th2{
+width: 500px;
+}
+table th.th3{
+width: 50px;
+}
+table th.th4{
+width: 50px;
+}
+
+table th.th5{
+width: 200px;
+}
+table th.th7{
+width: 200px;
+}
+
+ol{
+list-style:none
+}
+
+input[type="submit"]{
+font-family:"Lucida-yhy";
+border:none;
+font-size:14px;
+background-color:#a3defa;
+width:50px;
+height:20px;
+box-sizing: content-box;
+cursor:pointer;
+}
+#main{
+display:block;
+margin:auto;
+width: 1000px;
+}
+.return{
+display: block;
+margin: auto;
+width: 1000px;
+padding-left: 50px;
+color: black;
+font-family:"Lucida-yhy";
+font-size: 20px;
+}
+.return a{
+text-decoration: none;
+color: #a3defa;
+font-size: 25px;}
+#header{
+width: 1000px;
+margin:auto;
+background-image: url(../img/best.png);
+height: 200px;
+}
+.fb-login-button{
+height:100px;
+padding:20px 10px 0 10px;
+}
+
+#logout {
+padding-bottom: 20px;
+padding-right: 10px;
+color: white;
+font-family:"Lucida-yhy";
+}
+#logout a{
+color: white;
+text-decoration: none;
+}
+
+.cate_name{
+color: gray;
+font-family:"Lucida-yhy";
+font-size: 20px;	
+}
+.warning{
+font-family:"Lucida-yhy";
+font-size: 16px;
+font-style:oblique;
+}
+.subject-line{
+margin:10px 0 10px 10px;
+}
+.post{
+text-align: left;	
+margin-top: 100px;
+}
+.post table th{
+text-align: center;
+}
+.pagenum{
+text-align: right;
+margin-top: 10px;
+}
+.pagenum a{
+font-family:"STXINWEI-yhy";
+color: gray;
+text-decoration: none;
+}
+
+.breadcrumb a{
+font-family:"STXINWEI-yhy";
+color: gray;
+text-decoration: none;
+}
+#foot_table{
+width: 1000px;
+text-align: center;
+color: black;
+}
+#statistic p{
+font-family:"Lucida-yhy";
+color: gray;
+font-size: 20px;
+}
+#statistic{
+margin-top: 50px;
+}
